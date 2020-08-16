@@ -1,0 +1,41 @@
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, p{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  font-size: 15px;
+}
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #da771b;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background-color: rgb(11, 146, 11);
+  font-size: 20px ;
+}
+

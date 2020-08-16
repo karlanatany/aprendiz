@@ -1,0 +1,26 @@
+
+
+.titulo-principal {
+	color: black;
+	font-size: 50px;
+	padding-left: 30px;
+	text-align: center;
+}
+.principal{
+	font-size: 20px;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+.imagembeneficios {
+	width: 40%;
+}

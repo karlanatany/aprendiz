@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pizas da Rosaura - Contato</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="produtos.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="contato.css"
+</head>
+
+<body>
+  <header>
+    <div class="caixa">
+      <img src="logo.png" alt="logo pizza">
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="produtos.html">PRODUTOS</a></li>
+          <li><a class="active" href="contato.html">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <form>
+      <div>
+        <p>Sabor</p>
+        <select class="input-padrao" required>
+          <option >Calabresa</option>
+          <option>4 queijos</option>
+          <option>Brócolis</option>
+        </select>
+      </div>
+      
+      <label for="quantidade"> Quantidade</label>
+      <input type="number" id="quantidade" class="input-padrao" required>
+
+      <label for="valor>">Valor</label>
+      <input type="number" id="valor" class="input-padrao" required>
+
+      <label for="obs">Observação</label>
+      <textarea cols="30" rows="10" id="obs" class="input-padrao" required placeholder="Preferências do cliente"></textarea>
+
+      <div>
+        <p>Forma de pagamento:</p>
+        <label for="radio-cartao"><input type="radio" name="pagamento" value="cartao" id="radio-cartao">Cartão</label>
+        
+        
+        <label for="radio-dinheiro"><input type="radio" name="pagamento" value="dinheiro" id="radio-dinheiro">Dinheiro</label>
+      </div>
+
+      <input type="submit" value="Registrar Pedido" class="enviar">
+
+    </form>
+  </main>
+
+  <footer>
+    <img src="pizza.png" alt="logo pizza">
+    <p>Criado por Natany - 2020</p>
+  </footer>
+  </body>
+  </html>
